@@ -1,0 +1,223 @@
+/*  JavaScript 6th Edition
+	Chapter 1
+	Hands-on Project 1
+
+	Filename: styles.css
+*/
+
+
+/* HTML5 display-role reset for older browsers */
+article, header, nav, section {
+	display: block;
+}
+
+body {
+	background: #4B3B40;
+	color: #4B3B40;
+}
+
+section {
+	min-width: 800px;
+	width: 80%;
+	max-width: 1440px;
+	margin: 0 auto;
+	font-family: Verdana, Geneva, sans-serif; 
+}
+
+/* page header */
+header {
+	background: #9CDE9F;
+	color: #82735C;
+	text-align: center;
+	padding: 1px;
+	font-size: 150%;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+/* page navigation */
+nav {
+	background: linear-gradient(#9CDE9F, #D1F5BE);
+	padding: 1px;
+	border-bottom: 3px solid #9CDE9F;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 20px 0 0 0;
+	margin: 0 0 9px 0;
+}
+
+nav li {
+	display: inline;
+	padding: 0;
+	margin: 0;
+}
+
+nav a {
+	color: #9CDE9F;
+	padding: 10px;
+	margin: 0 15px 15px 15px;
+	background: #4B3B40;
+	text-decoration: none;
+	border-radius: 25px;
+}
+
+nav a:hover {
+	background: #82735C;
+	color: #D1F5BE;
+}
+
+/* main content */
+article {
+	padding: 1px;
+	background: #D1F5BE;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+article h2 {
+	padding: 10px;
+	color: #4B3B40;
+}
+
+/* article list */
+article ol li {
+	padding: 10px;
+	margin-left: 35px;
+}
+
+/* article paragraph */
+article p {
+	text-align: center;
+}
+
+/* table */
+table {
+	background: #4B3B40;
+	margin: 10px auto;
+	width: 350px;
+	border: 3px #9DB17C solid;
+	border-radius: 15px;
+	border-spacing: 0;
+}
+
+th {
+	padding: 10px;
+	color: #D1F5BE;
+	background-color: #4B3B40;
+	border-bottom: 3px solid #82735C;
+}
+
+th:first-of-type {
+	border-radius: 15px 0 0 0;
+}
+
+th:last-of-type {
+	border-radius: 0 15px 0 0;
+}
+
+td {
+	padding: 5px;
+	border-right: 1px solid #82735C;
+	border-bottom: 1px solid #82735C;
+}
+
+tr:nth-of-type(odd) {
+	background: #9CDE9F;
+}
+
+tr:nth-of-type(even) {
+	background: #D1F5BE;
+}
+
+tr:first-of-type {
+	border-radius: 15px 15px 0 0;
+	border-bottom: none;
+}
+
+td:last-of-type {
+	text-align: center;
+}
+
+tr:last-of-type td:first-of-type {
+	border-radius: 0 0 0 15px;
+	border-bottom: none;
+}
+
+tr:last-of-type td:last-of-type {
+	border-radius: 0 0 15px 0;
+	border-bottom: none;
+}
+
+/* form */
+form {
+	background: #9CDE9F;
+	padding: 5px 10px;
+	margin: 10px auto;
+	width: 750px;
+	color: #9DB17C;
+	border-radius: 15px;
+}
+
+fieldset {
+	margin-bottom: 10px;
+	background: #D1F5BE;
+	border: none;
+	border-radius: 15px;
+}
+
+fieldset fieldset {
+	padding-top: 5px;
+	border: 2px solid #9CDE9F;
+}
+
+legend {
+	font-size: 1.25em;
+	font-weight: bold;
+	color: #4B3B40;
+}
+
+#checkin {
+	float: left;
+	width: 44%;
+}
+
+#checkin legend, #checkout legend {
+	font-size: 1em;
+	color: inherit;
+}  
+#checkout {
+	float: right;
+	width: 44%;
+}
+
+label {
+	display: inline-block;
+	width: 45%;
+}
+
+label span {
+   font-weight: bold;
+   color: #4B3B40;
+}
+
+input {
+	vertical-align: top;
+}
+
+#submitbutton {
+	border: none;
+	padding: auto;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+#submitbutton input {
+	padding: 5px 15px;
+	font-weight: bold;
+	color: #4B3B40;
+	background: #9CDE9F;
+	border-color: #D1F5BE;
+	border-radius: 10px;
+}

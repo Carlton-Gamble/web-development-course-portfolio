@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--
+		JavaScript 6th Edition
+		Chapter 2
+		Hands-on Project 2-2
+
+		Author: Carlton Gamble
+		Date:   4/6/2024
+
+		Filename: convert.html
+	-->
+	<meta charset="utf-8">
+	<title>Hands-on Project 2-2</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<section>
+		<header>
+			<h1>Hands-on Project 2-2</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Project 2-1</a></li>
+				<li><a href="convert.html">Project 2-2</a></li>
+				<li><a href="shapes.html">Project 2-3</a></li>
+				<li><a href="order.html">Project 2-4</a></li>
+			</ul>
+		</nav>
+		<article>
+			<h2>Fahrenheit (&#176; F) to Celsius (&#176; C) Converter</h2>
+			<form>
+				<fieldset class="floatleft">
+					<label for="fValue">Enter temp in &#176; F</label>
+					<p><input type="number" id="fValue"></p>
+				</fieldset>
+				
+				<fieldset class="center"></fieldset>
+				
+				<fieldset class="floatleft">
+					<label>Temp in &#176; C</label>
+					<p id="cValue">&nbsp;</p>
+				</fieldset>
+				<br class="clear">
+			</form>
+		</article>
+	</section>
+	<script>
+			document.getElementById("fValue").addEventListener("change", convert, false);
+	</script>
+</body>
+</html>
