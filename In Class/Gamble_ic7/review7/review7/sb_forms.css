@@ -1,0 +1,83 @@
+/*
+   New Perspectives on HTML and CSS, 7th Edition
+   Tutorial 7
+   Case Problem 2
+
+   Spice Bowl Forms Style Sheet
+
+   Filename: sb_forms.css
+
+*/
+
+
+/* Form Layout Styles */
+
+form {
+   background-color: rgba(206, 141, 56, 0.1);
+}
+
+fieldset {
+   border: 2px solid #ce8d38;
+   margin: 15px;
+}
+
+legend {
+   background-color: rgba(206, 141, 56, 0.7);
+   color: rgba(255, 255, 255, 0.7);
+   font-size: 1.1em;
+   border-radius: 10px;
+   margin-bottom: 10px;
+   padding: 8px;
+}
+
+
+/* Input and Label Styles */
+
+label {
+   display: inline-block;
+   margin-bottom: 10px;
+   padding-left: 50px;
+   width: 35%;
+}
+
+input, select {
+   width: 35%;
+   box-sizing: border-box;
+   
+}
+
+/* Radio Button Styles */
+.credit input, .all input {
+   width: initial;
+   margin-left: 15px;
+}
+
+.credit label, .all label {
+	padding-left: 5px;
+}
+
+.all label {
+	width: inherit;
+}
+/* Expiration Date input styles */
+
+#monthList, #yearList {
+	width: 10%;
+}
+
+#ccPic {
+	float: right;
+	margin-right: 1em;
+}
+
+/* Submit Button Styles */
+
+input[type="submit"] {
+	background-color: #d5a668;
+	border: 5px outset rgb(206, 141, 56);
+	color: #e9e3db;
+	font-size: 2em;	
+	padding: 10px;
+	display: block;
+	margin: 15px auto;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--
+		New Perspectives on HTML5 and CSS3, 7th Edition
+		Tutorial 7
+		Case Problem 2
+
+		Spice Bowl Payment Processor
+		Author: Kristen Hawkins
+		Date:   10/3/17
+
+		Filename:   sb_processor.html
+
+	-->
+   
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Spice Bowl Payment Form</title>
+	<link href="sb_reset.css" rel="stylesheet" />
+	<link href="sb_styles.css" rel="stylesheet" />
+	
+</head>
+
+<body>
+	<header>
+		<img src="sb_logo.png" alt="The Spice Bowl" />
+		<nav> 
+			<a id="navicon" href="#"><img src="sb_navicon.png" alt="" /></a>
+			<ul>
+				<li><a href="#">Spices</a></li>
+				<li><a href="#">Recipes</a></li>
+				<li><a href="#">My Cart</a></li>
+				<li><a href="#">My Account</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h1>Payment Form Processor</h1>
+		<script>
+			<!-- HIDE FROM INCOMPATIBLE BROWSERS
+			document.write("<h2>Your form has been submitted!</h2>");
+			document.write("<h3>You entered the following data:</h3>");
+			var formData = location.search;
+			formData = formData.substring(1, formData.length);
+			while (formData.indexOf("+") != -1) {
+				formData = formData.replace("+", " ");
+			}
+			formData = unescape(formData);
+			
+
+			var formArray = formData.split("&");
+			
+			var formBlah = [];
+			var formBlah2 = [];
+			for (var i=0; i< formArray.length; i++){
+				var split = formArray[i].split("=");
+				formBlah.push(split[0]);
+				formBlah2.push(split[1]);
+			}
+			document.write("<table>")
+			for (var i=0; i < formBlah2.length; ++i) {
+				document.write("<tr><th>" + formBlah[i] + ": </th><td> " + formBlah2[i] + "</td></tr>");
+			}
+			document.write("</table>");
+			// STOP HIDING FROM INCOMPATIBLE BROWSERS -->
+		</script>
+			
+	</main>
+
+	<footer>
+		<nav>
+			<ul>
+				<li class="newgroup"><a href="#">Home</a></li>
+				<li><a href="#">Keyword Search</a></li>
+
+				<li class="newgroup"><a href="#">Spices</a></li>
+				<li><a href="#">Seasonings</a></li>
+				<li><a href="#">Blends</a></li>
+				<li><a href="#">Salts &amp; Peppers</a></li>
+				<li><a href="#">Popcorn Seasonings</a></li>
+				<li><a href="#">Dip Mixes</a></li>
+				<li><a href="#">Bulk Spices</a></li>
+				<li><a href="#">Extracts</a></li>
+				<li><a href="#">Flavorings</a></li>
+
+				<li class="newgroup"><a href="#">Spice Jars</a></li>
+				<li><a href="#">Spice Jar Labels</a></li>
+				<li><a href="#">Spice Sets</a></li>
+				<li><a href="#">Mortar &amp; Pestles</a></li>
+
+				<li class="newgroup"><a href="#">Cookbooks</a></li>
+				<li><a href="#">Online Recipes</a></li>
+				<li><a href="#">Forums</a></li>
+
+				<li class="newgroup"><a href="#">My Account</a></li>
+				<li><a href="#">Checkout</a></li>
+				<li><a href="#">Order History</a></li>
+				<li><a href="#">Shipping Info</a></li>
+
+				<li class="newgroup"><a href="#">Tech Support</a></li>
+				<li><a href="#">Hours</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+	</footer>         
+</body>
+</html>
