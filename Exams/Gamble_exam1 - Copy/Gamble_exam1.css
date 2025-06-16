@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+/*
+
+	IT 1430 - Web Page Development
+	Spring 2023
+	Exam 1 Part 2
+
+	Exam 1 Style Sheet
+	Author: Carlton Gamble
+	Date:    2/15/2024 
+
+	Filename: lastName_exam1.css
+
+*/
+html{
+	background-image:url('images/background.jpg');
+}
+body{
+	margin:auto;
+	background-color:#b0c4de;
+	width:75%;
+}
+header{
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+	background-color:#db032a;
+	color:white;
+	font-family:"Bauhaus 93",Impact or fantasy;
+	text-align:center;
+}
+#club{
+	font-style:italic;
+	color:rgb(219,3,42);
+}
+.stars{
+	color:white;
+	text-decoration:underline;
+}
+figure{
+	float:right;
+	margin-right:25px;
+	margin-left:25px;
+	margin-bottom:25px;
+	margin-top:25px;
+	box-shadow: 5px 5px 15px #02203a;
+}
+figcaption{
+	text-align:right;
+	border:2px dashed rgb(86, 184, 255);
+}
+li:last-of-type{
+	font-size:2.5em;
+}
+footer{
+	clear:both;
+	background-color:cornflowerblue;
+}
+footer a{
+	color:#ffdab8;
+	text-decoration:bold;
+}

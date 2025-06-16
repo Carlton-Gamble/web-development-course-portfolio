@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+/*
+
+	IT 1430 - Web Page Development
+	Spring 2023
+	Exam 2 Part 2
+
+	Exam 2 Style Sheet
+	Author: Instructor
+	Date:   Today's Date  
+
+	Filename: exam1.css
+
+*/
+
+html {
+	background-image: url("images/background.jpg");
+}
+
+body {
+	width: 75%;
+	margin: auto;
+	background-color: rgba(176, 196, 222, .9);
+}
+
+header {
+	padding: 5px;
+	background-color: #db032a;
+	color: white;
+	text-align: center;
+	font-family: "Bauhaus 93", Impact, fantasy;
+}
+
+#club {
+	font-style: italic;
+	color: rgb(219, 3, 42);
+}
+.stars {
+	text-decoration: underline;
+	color: #ffffff;
+}
+
+figure {
+	float: right;
+	margin: 25px;
+	width: 250px;
+	height: 347px;
+	box-shadow: 5px 5px 15px #02203a;
+}
+
+figcaption {
+	text-align: right;
+	border: 2px dashed rgb(255, 218, 184);
+}
+
+li:last-of-type {
+	font-size: 2.5em;
+}
+
+footer {
+	clear: both;
+	background-color: cornflowerblue;
+}
+
+footer a {
+	color: #ffdab8;
+	font-weight: bold;
+}

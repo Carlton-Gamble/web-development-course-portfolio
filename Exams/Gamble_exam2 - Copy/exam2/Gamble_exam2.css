@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+/*
+
+	IT 1430 - Web Page Development
+	Spring 2023
+	Exam 2 Part 2
+
+	Exam 2 Style Sheet
+	Author: Carlton Gamble
+	Date:     3/6/2024
+
+	Filename: lastName_exam2.css
+
+*/
+P{
+	padding:10px;
+	line-height:125%;
+}
+table{
+	width:45%;
+	margin:auto;
+	border-collapse:collapse;
+	border: solid 14px #db032a;
+}
+caption{
+	caption-side:bottom;
+	padding-top:8px;
+	text-align:left;
+	color:rgb(0, 59, 154)
+}
+table th, table td{
+	padding:5px;
+}
+Table td{
+	border: solid 1px black;
+}
+tr:nth-child(odd){
+	background-color:hsla(219, 79%, 66%, 0.25);
+	color:maroon;
+}
+tr:nth-child(even){
+	background-color:rgba(127, 255, 0, 0.25);
+	color:#014767;
+}
+table tr:first-child{
+background-color:rgb(255, 255, 255);
+color: hsl(266, 85%, 35%);
+border-bottom: 5px double #800080;
+font-size: 1.4em;
+}

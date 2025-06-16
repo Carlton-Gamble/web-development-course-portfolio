@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--
+		IT 1430 - Web Page Development
+		Fall 2019
+		Exam 3 Part 2 - Version 2
+
+		Author: Carlton Gamble
+		Date:   4/24/2024
+
+		Filename: lastName_exam3.html
+	-->
+	<meta charset="utf-8">
+	<title>Carlton Gamble - Exam 3 Part 2</title>
+	<link href="reset.css" rel="stylesheet">
+	<link href="exam1.css" rel="stylesheet">
+	<link href="exam2.css" rel="stylesheet">
+	<script src="Gamble_exam3.js"></script>
+</head>
+<body>
+	<header>
+		<h1>House of Mouse - Carlton Gamble & 901331373</h1>
+	</header>
+	<main>
+		<figure>
+			<img src="images/friends.jpg" alt="House of Mouse Staff Members" id="myImage">
+			<figcaption>Mickey, Donald, &amp; Goofy</figcaption>
+		</figure>
+		
+		<p>In this cartoon, <span class="stars">Mickey Mouse</span> and his band of <span class="stars">friends</span> run a night club called the "<span id="club">House of Mouse</span>" in the middle of Main Street in the city of Disneyville, which shows Disney cartoons as part of its floor show. Each episode features a framing plot revolving around the comic mishaps of <span class="stars">Mickey</span> and the other <span class="stars">characters</span> running the club, often with cartoons that fit the theme of the framing plot, which are used as wraparounds for various Disney <a href="#">cartoons</a>.</p>
+		
+		<table>
+			<caption>*Movie guests at the House of Mouse</caption>
+			<tr>
+				<th>Movie</th>
+				<th>Male</th>
+				<th>Female</th>
+				<th>Side Character</th>
+				<th>Villian</th>
+			</tr>
+			<tr>
+				<th>The Lion King</th>
+				<td>Simba</td>
+				<td>Nala</td>
+				<td>Mufasa</td>
+				<td>Scar</td>
+			</tr>
+			<tr>
+				<th>Hercules</th>
+				<td>Hercules</td>
+				<td>Megara</td>
+				<td>Philoctetes</td>
+				<td>Hades</td>
+			</tr>
+			<tr>
+				<th>Sleeping Beauty</th>
+				<td>Prince Phillip</td>
+				<td>Princess Aurora</td>
+				<td colspan="2">Maleficent</td>
+			</tr>
+			<tr>
+				<th>Aladdin</th>
+				<td>Aladdin</td>
+				<td>Jasmine</td>
+				<td>Genie</td>
+				<td>Jafar</td>
+			</tr>
+		</table>
+		<hr>
+		
+		
+		
+	</main>
+	<footer>
+		<p>These are external links that you should visit.<br>
+		<a href="https://en.wikipedia.org/wiki/Disney%27s_House_of_Mouse">en.wikipedia.org/wiki/Disney%27s_House_of_Mouse</a><br>
+		<a href="https://www.imdb.com/title/tt0272388/">www.imdb.com/title/tt0272388/</a><br>
+		<a href="http://disney.wikia.com/wiki/House_of_Mouse">disney.wikia.com/wiki/House_of_Mouse</a><br>
+		Copyright &copy; Fall 2019</p>
+	</footer>
+	<script>
+		var imageElement = document.getElementById("myImage");
+		imageElement.addEventListener("click", function(){
+		var altText = imageElement.alt;
+		mouse(altText);
+		});
+		var h1Element = document.querySelector("h1");
+		h1Element.addEventListener("click", function(){
+		var yourName = "Carlton Gamble";
+		mouse(yourName);
+		});
+	</script>
+</body>
+</html>
