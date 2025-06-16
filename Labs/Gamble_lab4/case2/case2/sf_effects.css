@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 4
+   Case Problem 2
+   
+   Save your Fork Graphic Design Styles
+   Author: Carlton Gamble
+   Date:   2/7/2024
+
+   Filename: sf_effects.css
+
+*/
+
+/* Body Header Styles */
+body{
+	box-shadow: #333333 10px 10px 50px, 
+	#333333 -10px 10px 50px;
+}
+
+/* Navigation Tabs List Styles */
+.tabs{
+	background-image: url("sf_back1.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	background-position:horizontal;
+	background-position:vertical;
+}
+.tabs li{
+	transform: perspective(50px) rotatex(22deg);
+}
+.tabs li:hover{
+	background-color:#e7e7e7;
+}
+/* Left Section Styles */
+#left .vertical{
+	border: 1px solid #14a7aa;
+	border-radius:25px;
+}
+#left .vertical h1{
+	border-top-left-radius:24px;
+	border-top-right-radius:24px;
+}
+.clearboth {
+	clear: both;
+}
+
+/* Center Article Styles */
+#center article{
+	background:radial-gradient(white, rgb(151, 151, 151));
+	border:1px solid rgb(151,151,151);
+	border-radius:50px;
+}
+
+
+
+/* Blockquote Styles */
+blockquote{
+	background-image: url("sf_speech.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	filter: drop-shadow(rgb(51, 51, 51) 5px 5px 10px);
+}
+cite img{
+	border-radius:50%;
+}
+

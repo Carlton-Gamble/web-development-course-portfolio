@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--
+		JavaScript 6th Edition
+		Chapter 1
+		Hands-on Project 1-4
+
+		Author: Carlton Gamble
+		Date:   3/31/2024
+
+		Filename: ship.html
+	-->
+	<meta charset="utf-8">
+	<title>Hands-on Project 1-4</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<section>
+		<header>
+			<h1>
+				Hands-on Project 1-4
+			</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Project 1-1</a></li>
+				<li><a href="iplans.html">Project 1-2</a></li>
+				<li><a href="order.html">Project 1-3</a></li>
+				<li><a href="ship.html">Project 1-4</a></li>
+				<li><a href="errors.html">Project 1-5</a></li>
+			</ul>
+		</nav>
+		<article>
+      <h2>Shipping Address</h2>
+      <form action="#">
+         <fieldset id="addroptions">
+            <legend><span>Choose an address</span></legend>
+            
+			<input type="radio" id="homeoption" name="shippingaddr" onclick= "document.getElementById('streetinput').value= '1 Main St.';	
+				document.getElementById('cityinput').value='Sicilla';
+				document.getElementById('stateinput').value='MA';
+				document.getElementById('zipinput').value='02103';">
+			
+			<label for="homeoption" id="homeaddr">
+               <span>Home</span><br>
+               1 Main St.<br>
+               Sicilia, MA 02103</label>
+               
+            <input type="radio" id="workoption" name="shippingaddr" onclick="document.getElementById('streetinput').value= '15 Columbine Ln.';	
+				document.getElementById('cityinput').value='Crab City';
+				document.getElementById('stateinput').value='MA';
+				document.getElementById('zipinput').value='02104';">
+			
+            <label for="workoption" id="workaddr">
+				<span>Work</span><br>
+				15 Columbine Ln.<br>
+				Crab City, MA 02104  
+            </label>
+        </fieldset>
+        <fieldset id="contactinfo">
+			<label for="streetinput">Street Address</label>
+			<input type="text" id="streetinput">
+			
+            <label for="cityinput">City</label>
+			<input type="text" id="cityinput">
+			
+            <label for="stateinput">State</label>
+			<input type="text" id="stateinput">
+			
+            <label for="zipinput">Zip</label>
+			<input type="text" id="zipinput">
+			
+          </fieldset>
+     </form>
+   </article>
+</body>
+</html>

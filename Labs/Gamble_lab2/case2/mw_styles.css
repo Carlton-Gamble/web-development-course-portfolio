@@ -1,0 +1,125 @@
+﻿@charset "utf-8";
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 2
+   
+   Bike the Mountains Tour Style Sheet
+   Author:Carlton Gamble
+   Date:   1/28/2024
+   
+   Filename: mw_styles.css
+
+*/
+
+
+/* Structural Styles */
+html{
+	background-color:#ADBDE3;
+}
+
+Body{
+	background-color: rgb(227,210,173);
+	font-family:Century Gothic,sans-serif;
+}
+
+Footer{
+	background-color:rgb(208,184,109);
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+Address{
+	font-style:normal;
+	font-size:0.9em;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+
+/* Heading Styles */
+
+h1{
+	font-weight:normal;
+}
+
+h2{
+	font-weight:normal;
+}
+
+/* Navigation Styles */
+nav ul{
+	list-style-type:none;
+	line-height:2em;
+	font-size:0.9em;
+}
+
+nav a{
+	text-decoration:none;
+	color:#2B3B7D;
+}
+
+nav:hover{
+	color:rgb(212,35,35);
+}
+
+
+
+/* Article Styles */
+#tour_summary h1{
+	font-size:2.2em;
+	letter-spacing:0.2em;
+}
+
+#tour_summary p{
+	font-size:1.1em
+}
+#tour_summary p:first-of-type:first-line{
+	font-variant:small-caps;
+	font-size:1.2em;
+}
+
+
+/* Aside Styles */
+#tour_itinerary h1{
+	font-size:1.2em;
+	text-align:center;
+	background-color:#bfc3d0;
+	color:white;
+}
+
+#tour_itinerary h2{
+	font-size:0.9em;
+}
+
+#tour_itinerary p{
+	font-size:0.8em;
+}
+#tour_itinerary h2:nth-of-type(odd){
+	color:#686c4c;
+}
+#tour_itinerary p:nth-of-type(odd){
+	color:#686c4c;
+}
+#tour_itinerary h2:nth-of-type(even){
+	color:#4040ff;
+}
+#tour_itinerary p:nth-of-type(even){
+	color:#4040ff
+}
+
+
+/* Blockquote Styles */
+blockquote{
+	background-color:hsl(222,59%,53%);
+	color:white;
+	opacity:0.65;
+}
+
+blockquote p{
+	padding-bottom:2.5px;
+	padding-top:2.5px;
+	padding-right:10px;
+	padding-left:10px;
+}

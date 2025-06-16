@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML and CSS, 7th Edition
+   Tutorial 6
+   Case Problem 3
+
+   Columns Style Sheet
+   Author: KH
+   Date:   2/4/2018
+
+   Filename:   lht_columns.css
+
+*/
+
+
+
+/* Column Styles */
+
+article {
+	/* READ Section 6.2 */
+	/* column width of 260px */
+	column-width: 260px;
+	/* column gap of 20px */
+	column-gap: 20px;
+	/* column divider of 1px solid rgb(154, 64, 31) */
+	column-rule: 1px solid rgb(154, 64, 31);
+	/* widows & orphans min-size of 2 lines */
+	orphans: 2;
+	widows: 2;
+}
+
+article h2 {
+	/* extends across all columns */
+	column-span: all;
+}
+
