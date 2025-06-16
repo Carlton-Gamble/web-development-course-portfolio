@@ -36,8 +36,7 @@ To preview any work:
 - **Course**: Modular Web Development  
 - **University**: Georgia Southern University  
 - **Semester**: Spring 2024  
-- **Student**: [Your Full Name]  
-- *(Instructor name optional)*
+- **Student**: [Carlton Gamble]  
 
 ## 📌 Purpose
 
